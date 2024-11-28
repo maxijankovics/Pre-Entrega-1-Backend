@@ -1,1 +1,90 @@
-[{"id":"8f63b756-efaf-4b70-911c-bcf080458221","title":"Milanesa napolitana con guarnicion","description":"Milanesa de carne o pollo con jamon, muzarella y salsa de tomate acompanada con fritas o ensalada mixta","price":500,"thumbnail":[],"code":"NMX458","stock":40,"category":"platosCarta","status":"true"},{"id":"48f33b9a-2bae-44dd-9c0f-83105d8fa996","title":"Petit entrecot con guarnicion","description":"Churrasco de entrecot con fritas o ensalada mixta","price":545,"thumbnail":[],"code":"NMX459","stock":10,"category":"platosCarta","status":"true"},{"id":"e7ea1526-4c3c-4719-8386-1a9db37867e7","title":"Mirinda","description":"Refresco Mirinda sabor naranja","price":120,"thumbnail":[],"code":"NMX460","stock":100,"category":"refrescos","status":"true"},{"id":"f0ada236-1f45-442f-af0b-b5cf4c3243f4","title":"Pepsi black","description":"Refresco Pepsi sin azucar","price":120,"thumbnail":[],"code":"NMX461","stock":100,"category":"refrescos","status":"true"},{"id":"df532a93-d189-4ba1-8e4b-38516ccb85e6","title":"Costillas de cerdo agridulces con guarnicion","description":"Costillas de cerdo con rodajas de anana y salsa agridulce, acompanado de fritas o ensalada mixta","price":520,"thumbnail":[],"code":"NMX462","stock":10,"category":"platosCarta","status":"true"},{"id":"6673272c-4480-4c7f-82de-5dfb6723b54b","title":"Menu ejecutivo","description":"Menu que incluye plato principal, bebida o copa de vino, postre y cafe","price":540,"thumbnail":[],"code":"NMX463","stock":40,"category":"menusCompletos","status":"true"},{"id":"a8d7c25e-bbbd-40f9-9f9a-b1dd2b73865b","title":"Canelones de verdura","description":"Canelones de verdura con salsa fileto y bechamel","price":410,"thumbnail":[],"code":"NMX464","stock":10,"category":"platosCarta","status":"true"},{"id":"0b9bd010-8105-42ff-b448-c875d9e38e1a","title":"Berenjenas a la parmesana","description":"rodajas de berenjenas cocinadas con salsa de tomate y queso","price":450,"thumbnail":[],"code":"NMX465","stock":10,"category":"platosCarta","status":"true"}]
+[
+  {
+    "id": "8f63b756-efaf-4b70-911c-bcf080458221",
+    "title": "Milanesa napolitana con guarnicion",
+    "description": "Milanesa de carne o pollo con jamon, muzarella y salsa de tomate acompanada con fritas o ensalada mixta",
+    "price": 500,
+    "thumbnail": [],
+    "code": "NMX458",
+    "stock": 40,
+    "category": "platosCarta",
+    "status": "true"
+  },
+  {
+    "id": "48f33b9a-2bae-44dd-9c0f-83105d8fa996",
+    "title": "Petit entrecot con guarnicion",
+    "description": "Churrasco de entrecot con fritas o ensalada mixta",
+    "price": 545,
+    "thumbnail": [],
+    "code": "NMX459",
+    "stock": 10,
+    "category": "platosCarta",
+    "status": "true"
+  },
+  {
+    "id": "e7ea1526-4c3c-4719-8386-1a9db37867e7",
+    "title": "Mirinda",
+    "description": "Refresco Mirinda sabor naranja",
+    "price": 120,
+    "thumbnail": [],
+    "code": "NMX460",
+    "stock": 100,
+    "category": "refrescos",
+    "status": "true"
+  },
+  {
+    "id": "f0ada236-1f45-442f-af0b-b5cf4c3243f4",
+    "title": "Pepsi black",
+    "description": "Refresco Pepsi sin azucar",
+    "price": 120,
+    "thumbnail": [],
+    "code": "NMX461",
+    "stock": 100,
+    "category": "refrescos",
+    "status": "true"
+  },
+  {
+    "id": "df532a93-d189-4ba1-8e4b-38516ccb85e6",
+    "title": "Costillas de cerdo agridulces con guarnicion",
+    "description": "Costillas de cerdo con rodajas de anana y salsa agridulce, acompanado de fritas o ensalada mixta",
+    "price": 520,
+    "thumbnail": [],
+    "code": "NMX462",
+    "stock": 10,
+    "category": "platosCarta",
+    "status": "true"
+  },
+  {
+    "id": "6673272c-4480-4c7f-82de-5dfb6723b54b",
+    "title": "Menu ejecutivo",
+    "description": "Menu que incluye plato principal, bebida o copa de vino, postre y cafe",
+    "price": 540,
+    "thumbnail": [],
+    "code": "NMX463",
+    "stock": 40,
+    "category": "menusCompletos",
+    "status": "true"
+  },
+  {
+    "id": "a8d7c25e-bbbd-40f9-9f9a-b1dd2b73865b",
+    "title": "Canelones de verdura",
+    "description": "Canelones de verdura con salsa fileto y bechamel",
+    "price": 410,
+    "thumbnail": [],
+    "code": "NMX464",
+    "stock": 10,
+    "category": "platosCarta",
+    "status": "true"
+  },
+  {
+    "id": "abe5c7a9-277c-40d0-9011-902f2894f768",
+    "title": "Berenjenas a la parmesana",
+    "description": "rodajas de berenjenas cocinadas con salsa de tomate y queso",
+    "price": 450,
+    "thumbnail": [],
+    "code": "NMX465",
+    "stock": 10,
+    "category": "platosCarta",
+    "status": true
+  }
+]

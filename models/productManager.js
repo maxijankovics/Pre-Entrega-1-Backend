@@ -48,7 +48,7 @@ async getProducts(limit) {
 
     this.products.push(newProduct);
 
-    await fs.promises.writeFile(this.path, JSON.stringify(this.products));
+    await fs.promises.writeFile(this.path, JSON.stringify(this.products, null, 2));
 
     return newProduct;
 
@@ -74,7 +74,7 @@ async getProducts(limit) {
       ...data,
     };
 
-    await fs.promises.writeFile(this.path, JSON.stringify(this.products));
+    await fs.promises.writeFile(this.path, JSON.stringify(this.carts, null, 2));
 
     return this.products[index];
 
@@ -85,7 +85,7 @@ async getProducts(limit) {
 
     this.products = this.products.filter((products) => products.id !== id);
 
-    await fs.promises.writeFile(this.path, JSON.stringify(this.products));
+    await fs.promises.writeFile(this.path, JSON.stringify(this.carts, null, 2));
 
     return `Producto con el id ${id} eliminado`
   }

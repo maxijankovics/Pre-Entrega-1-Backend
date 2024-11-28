@@ -31,7 +31,7 @@ export class CartManager {
 
         this.carts.push(newCart);
 
-        await fs.promises.writeFile(this.path, JSON.stringify(this.carts));
+        await fs.promises.writeFile(this.path, JSON.stringify(this.carts, null, 2));
 
         return newCart;
 
@@ -60,7 +60,7 @@ export class CartManager {
             product.quantity++;
         }
 
-        await fs.promises.writeFile(this.path, JSON.stringify(this.carts));
+        await fs.promises.writeFile(this.path, JSON.stringify(this.carts, null, 2));
 
         return cart;
 
